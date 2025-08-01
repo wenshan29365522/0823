@@ -42,7 +42,7 @@
       const id4 = document.getElementById("id4").value.trim().padStart(4, '0');
       const resultBox = document.getElementById("result");
 
-      if (!name || !id4) {
+      if (!name || !idLast4) {
         resultBox.innerText = "請完整輸入姓名與身分證後四碼。";
         return;
       }
