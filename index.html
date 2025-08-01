@@ -47,7 +47,7 @@
         return;
       }
 
-      const match = data.find(item => item["姓名"] === name && item["身分證後4碼"] === id4);
+      const match = data.find(item => item["姓名"] === name && item["身分證後4碼"] === idLast4);
 
       if (match) {
         resultBox.innerHTML = `
