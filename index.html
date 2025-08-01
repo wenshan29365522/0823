@@ -39,7 +39,7 @@
 
     function search() {
       const name = document.getElementById("name").value.trim();
-      const id4 = document.getElementById("id4").value.trim().padStart(4, '0');
+      const idLast4 = document.getElementById("idLast4").value.trim().padStart(4, '0');
       const resultBox = document.getElementById("result");
 
       if (!name || !idLast4) {
